@@ -1,0 +1,31 @@
+.react-calendar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.react-calendar__tile {
+    height: 60px; /* Adjust the height for bigger tiles */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-calendar__tile.highlight {
+    background-color: #1976d2; /* Highlight color */
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.react-calendar__tile:enabled:hover {
+    background-color: #115293;
+    color: white;
+}
+
+.react-calendar__tile:enabled:focus {
+    background-color: #115293;
+    color: white;
+}
